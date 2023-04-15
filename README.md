@@ -30,10 +30,6 @@ Go to https://moneroocean.stream . This is the pool you are connected to, it wil
 
 # Use In Other Projects 
 
-HTML Iframe-snippet
-
-    <iframe src="https://cdn.jsdelivr.net/gh/NajmAjmal/monero-webminer@main/external/html.html"></iframe>
-
 
 HTML
   
