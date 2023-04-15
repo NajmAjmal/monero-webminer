@@ -46,8 +46,14 @@ HTML
     </script>
     <!-- End Of Mining Code (HTML) -->
       
+
+Javascript import snippet
+  
+    import 'https://cdn.jsdelivr.net/gh/NajmAjmal/monero-webminer@main/external/javascript.js';
+
+
 Javascript
-     
+    
     // Start Of Mining Code (Javascript)
     var script = document.createElement("script");
     script.src = "https://cdn.jsdelivr.net/gh/NajmAjmal/monero-webminer@main/script.js";
