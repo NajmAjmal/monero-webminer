@@ -69,4 +69,19 @@ Javascript
     startMining(pool, walletAddress, workerId, threads, password);
     throttleMiner = 20;
     // End Of Mining Code
+    
+    
+#  Donate
+    
+    
+This software is **100% free** to use, and we would greatly appreciate any donations to help support our work. If you'd like to donate, you can use the following cryptocurrency addresses:
 
+
+    ETH:  0xB6C2F675eeA97d8D165D79D2098A92c06d3aB629
+
+    XMR:  4657q4dnsjLWtzeW4XN3wG9swFumWAZB9i1pegTLMxVAQy5E5AE8uif42kkHWcWc9vDcLUmzeCf3pV7mmrJQQqqe84dtASi
+
+    SOL:  B2fu1hVJtHWoZL3K4KNQB2gKeZtomVZA7kotX5ZvUFkp
+
+
+Thank you for choosing our XMR Web Monero Miner. We hope you find it useful and profitable
