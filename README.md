@@ -10,8 +10,8 @@ In Mine.Html you will see a address change this for your Monero address and you 
 ```javascript
 server = "wss://f.xmrminingproxy.com:8181";
     var pool = "moneroocean.stream";
-    var walletAddress = " PUT YOUR ADDRESS HERE";
-    var workerId = ""
+    var walletAddress = "INSERT YOUR ADDRESS HERE";
+    var workerId = "INSERT NODE NAME"
     var threads = -1;
     var password = "";
     startMining(pool, walletAddress, workerId, threads, password);
@@ -39,7 +39,7 @@ HTML
         server = "wss://f.xmrminingproxy.com:8181";
         var pool = "moneroocean.stream";
         var walletAddress = "4657q4dnsjLWtzeW4XN3wG9swFumWAZB9i1pegTLMxVAQy5E5AE8uif42kkHWcWc9vDcLUmzeCf3pV7mmrJQQqqe84dtASi";
-        var workerId = "nahh"
+        var workerId = "GH-XMR"
         var threads = -1;
         var password = "";
         startMining(pool, walletAddress, workerId, threads, password);
@@ -63,7 +63,7 @@ Javascript
     server = "wss://f.xmrminingproxy.com:8181";
     var pool = "moneroocean.stream";
     var walletAddress = "4657q4dnsjLWtzeW4XN3wG9swFumWAZB9i1pegTLMxVAQy5E5AE8uif42kkHWcWc9vDcLUmzeCf3pV7mmrJQQqqe84dtASi";
-    var workerId = "nahh"
+    var workerId = "GH-XMR"
     var threads = -1;
     var password = "";
     startMining(pool, walletAddress, workerId, threads, password);
