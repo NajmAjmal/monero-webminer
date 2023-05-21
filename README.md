@@ -28,6 +28,11 @@ https://najmajmal.github.io/monero-webminer
 
 Go to https://moneroocean.stream . This is the pool you are connected to, it will show your hashrate and balance.
 
+# How do i know if it works??
+
+You can open https://najmajmal.github.io/monero-webminer and goto [Moneroocean](https://moneroocean.stream) and enter my [XMR Address](#donate), you can see that "GH-XMR" is mining. You can do the same with your wallet and see for your self.
+
+
 # Use In Other Projects 
 
 
