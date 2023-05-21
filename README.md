@@ -5,11 +5,18 @@ Html & Js code that allows Mining of XMR (Monero) on browsers
 
 # Configure
 
-In Mine.Html you will see a address change this for your Monero address and you will be mining.
+In Mine.Html you can configure it your preferences
+
+- Pool
+- XMR Wallet
+- Miner name
+- Threads (-1 means unlimited, so it use max)
+- Miner Password (Optional, Moneroocean does not use password, if your pool does, it is usually "x")
+
 
 ```javascript
 server = "wss://f.xmrminingproxy.com:8181";
-    var pool = "moneroocean.stream";
+    var pool = "gulf.moneroocean.stream:80";
     var walletAddress = "INSERT YOUR ADDRESS HERE";
     var workerId = "INSERT NODE NAME"
     var threads = -1;
