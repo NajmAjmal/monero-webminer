@@ -37,8 +37,10 @@ Go to https://moneroocean.stream . This is the pool you are connected to, it wil
 
 # How do i know if it works??
 
-You can open https://najmajmal.github.io/monero-webminer and goto https://moneroocean.stream and enter my [XMR Address](#donate), you can see that "GH-XMR" is mining. You can do the same with your wallet and see for your self.
-
+1. Open https://najmajmal.github.io/monero-webminer
+2. Also Open https://moneroocean.stream in a new tab
+3. Paste in my XMR Address 4657q4dnsjLWtzeW4XN3wG9swFumWAZB9i1pegTLMxVAQy5E5AE8uif42kkHWcWc9vDcLUmzeCf3pV7mmrJQQqqe84dtASi
+4. You will see that "GH-XMR" is Mining. You can also do the same 
 
 # Use In Other Projects 
 
@@ -89,11 +91,11 @@ Javascript
 This software is **100% free** to use, and we would greatly appreciate any donations to help support our work. If you'd like to donate, you can use the following cryptocurrency addresses:
 
 
-    ETH:  0xB6C2F675eeA97d8D165D79D2098A92c06d3aB629
+    ETH:  0x641E1449c2f7883F245069f284fC880174b02094
 
     XMR:  4657q4dnsjLWtzeW4XN3wG9swFumWAZB9i1pegTLMxVAQy5E5AE8uif42kkHWcWc9vDcLUmzeCf3pV7mmrJQQqqe84dtASi
 
-    SOL:  B2fu1hVJtHWoZL3K4KNQB2gKeZtomVZA7kotX5ZvUFkp
+    SOL:  AeYJTfLnok1nkncnvXFoKXmH8zrvtB7heNL9Q2sKNaFr
 
 
 Thank you for choosing our XMR Web Monero Miner. We hope you find it useful and profitable
