@@ -33,7 +33,7 @@ https://najmajmal.github.io/monero-webminer
 
 # Check Progress 
 
-Go to https://moneroocean.stream . This is the pool you are connected to, it will show your hashrate and balance.
+Go to https://moneroocean.stream. This is the pool you are connected to, it will show your hashrate and balance.
 
 # How do i know if it works??
 
