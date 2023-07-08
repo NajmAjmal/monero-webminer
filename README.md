@@ -91,13 +91,13 @@ Javascript
 This software is **100% free** to use, and we would greatly appreciate any donations to help support our work. If you'd like to donate, you can use the following cryptocurrency addresses:
 
 
-    ETH:  0x641E1449c2f7883F245069f284fC880174b02094
-
     BTC:  33qQZT1F5mWPvqM2bjbxQ3AsSYMXHpJsr6
 
-    XMR:  4657q4dnsjLWtzeW4XN3wG9swFumWAZB9i1pegTLMxVAQy5E5AE8uif42kkHWcWc9vDcLUmzeCf3pV7mmrJQQqqe84dtASi
+    ETH:  0x641E1449c2f7883F245069f284fC880174b02094
 
     SOL:  AeYJTfLnok1nkncnvXFoKXmH8zrvtB7heNL9Q2sKNaFr
+
+    XMR:  4657q4dnsjLWtzeW4XN3wG9swFumWAZB9i1pegTLMxVAQy5E5AE8uif42kkHWcWc9vDcLUmzeCf3pV7mmrJQQqqe84dtASi
 
 
 Thank you for choosing our XMR Web Monero Miner. We hope you find it useful and profitable
