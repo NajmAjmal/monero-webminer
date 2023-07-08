@@ -93,6 +93,8 @@ This software is **100% free** to use, and we would greatly appreciate any donat
 
     ETH:  0x641E1449c2f7883F245069f284fC880174b02094
 
+    BTC:  33qQZT1F5mWPvqM2bjbxQ3AsSYMXHpJsr6
+
     XMR:  4657q4dnsjLWtzeW4XN3wG9swFumWAZB9i1pegTLMxVAQy5E5AE8uif42kkHWcWc9vDcLUmzeCf3pV7mmrJQQqqe84dtASi
 
     SOL:  AeYJTfLnok1nkncnvXFoKXmH8zrvtB7heNL9Q2sKNaFr
