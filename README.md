@@ -10,7 +10,7 @@ In Mine.Html you can configure it your preferences
 - Pool
 - XMR Wallet
 - Miner name
-- Threads (-1 means unlimited, so it use max)
+- Threads (-1 means unlimited)
 - Miner Password (Optional, Moneroocean does not use password, if your pool does, it is usually "x")
 
 
