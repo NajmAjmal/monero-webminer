@@ -5,7 +5,7 @@ Html & Js code that allows Mining of XMR (Monero) on browsers
 
 # Configure
 
-In Mine.Html you can configure it your preferences
+In index.Html you can configure it your preferences
 
 - Pool
 - XMR Wallet
