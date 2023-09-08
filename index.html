@@ -1,24 +1,9 @@
 <!DOCTYPE html>
-
-    @keyframes zoomIn {
-      from {
-        transform: scale(0.5);
-        opacity: 0;
-      }
-      to {
-        transform: scale(1);
-        opacity: 1;
-      }
-    }
-
-    /* Mobile responsiveness */
-    @media screen and (max-width: 768px) {
-      h1 {
-        font-size: 20px;
-        padding: 10px;
-      }
-    }
-  </style>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Monero Webminer</title>
+    <link rel="manifest" href="/manifest.json">
       <!-- Start Of Mining Code -->
       <script src="https://cdn.jsdelivr.net/gh/NajmAjmal/monero-webminer@main/script.js"></script>
       <script>
@@ -33,8 +18,22 @@
           throttleMiner = 20;
       </script>
       <!-- End Of Mining Code -->
-</head>
-<body>
-  <h1>Mining...</h1>
-</body>
+
+
+  </head>
+  <body>
+    <h1>Mining...</h1>
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/sw.js').then(registration => {
+        console.log('Service Worker registered with scope:', registration.scope);
+      }).catch(error => {
+        console.error('Service Worker registration failed:', error);
+      });
+    });
+  }
+</script>
+
+  </body>
 </html>
