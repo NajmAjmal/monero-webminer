@@ -23,10 +23,11 @@
   </head>
   <body>
     <h1>Mining...</h1>
+    <p>View mining progress <a href="https://moneroocean.stream">here</a></p>
 <script>
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/sw.js').then(registration => {
+      navigator.serviceWorker.register('/serviceworker.js').then(registration => {
         console.log('Service Worker registered with scope:', registration.scope);
       }).catch(error => {
         console.error('Service Worker registration failed:', error);
